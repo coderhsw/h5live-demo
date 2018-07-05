@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="./video-js.min.css" />
+  <script src="./video.min.js"></script>
+  <script src="./videojs-contrib-hls.js"></script>
+</head>
+
+<body>
+  <video id="my-player" class="video-js" controls preload="auto">
+    <source src="http://live.streamingfast.net/osmflivech5.m3u8" type="video/mp4 "></source>
+    <p class="vjs-no-js">
+      not support
+    </p>
+  </video>
+  <script>
+    var player = videojs('my-player', {
+      width: 400,
+      heigth: 225
+    })
+  </script>
+</body>
+
+</html>
