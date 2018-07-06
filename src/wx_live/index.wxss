@@ -1,0 +1,8 @@
+/* index.wxss */
+
+.player{
+  width: 750rpx;
+  height: 500rpx;
+  text-align: center;
+  padding-top: 40rpx;
+}
