@@ -1,4 +1,4 @@
-nginx-rtmp-win32
+nginx-rtmp
 ================
 
 * Nginx: 1.13.12  
