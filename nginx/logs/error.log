@@ -1,0 +1,698 @@
+2018/07/04 23:33:44 [notice] 11088#10092: using the "select" event method
+2018/07/04 23:33:44 [notice] 11088#10092: nginx/1.13.12
+2018/07/04 23:33:44 [info] 11088#10092: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/04 23:33:44 [notice] 11088#10092: start worker processes
+2018/07/04 23:33:44 [notice] 11088#10092: start worker process 16712
+2018/07/04 23:33:44 [notice] 16712#4804: nginx/1.13.12
+2018/07/04 23:33:44 [info] 16712#4804: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/04 23:33:44 [notice] 16712#4804: create thread 17344
+2018/07/04 23:33:44 [notice] 16712#4804: create thread 13764
+2018/07/04 23:33:44 [notice] 16712#4804: create thread 4376
+2018/07/04 23:34:11 [error] 16712#17344: *1 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/html/history/history.css" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /history/history.css HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2018/07/04 23:34:11 [error] 16712#17344: *2 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/html/history/history.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /history/history.js HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2018/07/04 23:34:11 [error] 16712#17344: *1 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2018/07/04 23:34:24 [info] 16712#17344: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/07/04 23:39:50 [notice] 17448#18048: signal process started
+2018/07/04 23:39:50 [notice] 11088#10092: reconfiguring
+2018/07/04 23:39:50 [notice] 11088#10092: using the "select" event method
+2018/07/04 23:39:50 [notice] 11088#10092: start worker processes
+2018/07/04 23:39:50 [notice] 11088#10092: start worker process 17892
+2018/07/04 23:39:50 [notice] 17892#17896: nginx/1.13.12
+2018/07/04 23:39:50 [info] 17892#17896: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/04 23:39:50 [notice] 16712#4804: gracefully shutting down
+2018/07/04 23:39:50 [notice] 17892#17896: create thread 17972
+2018/07/04 23:39:50 [notice] 16712#13764: exiting
+2018/07/04 23:39:50 [notice] 17892#17896: create thread 18188
+2018/07/04 23:39:50 [notice] 17892#17896: create thread 17464
+2018/07/04 23:39:50 [notice] 16712#17344: exiting
+2018/07/04 23:39:50 [notice] 16712#4804: exit
+2018/07/04 23:39:50 [notice] 11088#10092: worker process 16712 exited with code 0
+2018/07/04 23:40:30 [info] 17892#17972: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/07/04 23:40:30 [info] 17892#17972: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/07/04 23:41:53 [info] 17892#17972: *7 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/07/04 23:41:53 [info] 17892#17972: *8 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/07/04 23:41:53 [info] 17892#17972: *9 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/07/04 23:42:44 [error] 17892#17972: *10 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/html/history/history.css" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /history/history.css HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2018/07/04 23:42:44 [error] 17892#17972: *11 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/html/history/history.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /history/history.js HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2018/07/04 23:43:18 [info] 17892#17972: *13 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/07/04 23:43:18 [info] 17892#17972: *14 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/07/04 23:43:18 [error] 17892#17972: *11 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/html/history/history.css" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /history/history.css HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2018/07/04 23:43:18 [error] 17892#17972: *10 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/html/history/history.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /history/history.js HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2018/07/04 23:43:51 [info] 17892#17972: *15 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/07/04 23:43:52 [info] 17892#17972: *12 client 127.0.0.1 closed keepalive connection
+2018/07/04 23:43:52 [info] 17892#17972: *10 client 127.0.0.1 closed keepalive connection
+2018/07/04 23:43:52 [info] 17892#17972: *11 client 127.0.0.1 closed keepalive connection
+2018/07/05 00:05:10 [notice] 13740#17496: signal process started
+2018/07/05 00:05:10 [notice] 11088#10092: reconfiguring
+2018/07/05 00:05:10 [notice] 11088#10092: using the "select" event method
+2018/07/05 00:05:10 [notice] 11088#10092: start worker processes
+2018/07/05 00:05:10 [notice] 11088#10092: start worker process 17776
+2018/07/05 00:05:10 [notice] 17776#18224: nginx/1.13.12
+2018/07/05 00:05:10 [info] 17776#18224: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/05 00:05:10 [notice] 17776#18224: create thread 15772
+2018/07/05 00:05:10 [notice] 17892#17896: gracefully shutting down
+2018/07/05 00:05:10 [notice] 17892#18188: exiting
+2018/07/05 00:05:10 [notice] 17776#18224: create thread 17792
+2018/07/05 00:05:10 [notice] 17776#18224: create thread 5300
+2018/07/05 00:05:11 [notice] 17892#17972: exiting
+2018/07/05 00:05:11 [notice] 17892#17896: exit
+2018/07/05 00:05:11 [notice] 11088#10092: worker process 17892 exited with code 0
+2018/07/05 00:12:08 [error] 17776#15772: *16 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/html/history/history.css" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /history/history.css HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2018/07/05 00:12:08 [error] 17776#15772: *17 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/html/history/history.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /history/history.js HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2018/07/05 00:12:10 [error] 17776#15772: *17 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2018/07/05 00:13:08 [info] 17776#15772: *18 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/07/05 00:13:08 [info] 17776#15772: *19 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/07/05 00:13:09 [info] 17776#15772: *20 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/07/05 00:14:37 [info] 17776#15772: *22 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/07/05 00:14:37 [info] 17776#15772: *23 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/07/05 00:14:37 [info] 17776#15772: *24 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/07/05 00:14:37 [info] 17776#15772: *25 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/07/05 00:14:37 [info] 17776#15772: *26 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/07/05 00:15:28 [notice] 17984#6744: signal process started
+2018/07/05 00:15:28 [notice] 11088#10092: reconfiguring
+2018/07/05 00:15:28 [notice] 11088#10092: using the "select" event method
+2018/07/05 00:15:28 [notice] 11088#10092: start worker processes
+2018/07/05 00:15:28 [notice] 11088#10092: start worker process 7960
+2018/07/05 00:15:28 [notice] 7960#16796: nginx/1.13.12
+2018/07/05 00:15:28 [info] 7960#16796: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/05 00:15:28 [notice] 17776#18224: gracefully shutting down
+2018/07/05 00:15:28 [notice] 7960#16796: create thread 13256
+2018/07/05 00:15:28 [notice] 17776#17792: exiting
+2018/07/05 00:15:28 [notice] 7960#16796: create thread 18040
+2018/07/05 00:15:28 [notice] 7960#16796: create thread 7276
+2018/07/05 00:15:28 [notice] 17776#15772: exiting
+2018/07/05 00:15:28 [notice] 17776#18224: exit
+2018/07/05 00:15:28 [notice] 11088#10092: worker process 17776 exited with code 0
+2018/07/05 00:20:18 [info] 7960#13256: *27 client connected '127.0.0.1'
+2018/07/05 00:20:18 [info] 7960#13256: *27 connect: app='rtmplive' args='' flashver='FMLE/3.0 (compatible; Lavf58.17' swf_url='' tc_url='rtmp://localhost:1935/rtmplive' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 00:20:18 [info] 7960#13256: *27 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 00:20:18 [info] 7960#13256: *27 publish: name='rtmp' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 00:20:35 [info] 7960#13256: *27 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 00:20:35 [info] 7960#13256: *27 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 00:20:35 [info] 7960#13256: *27 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 00:20:35 [info] 7960#13256: *27 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 00:51:29 [emerg] 15584#18360: "alias" directive is duplicate, "root" directive was specified earlier in D:\workplace\nginx\nginx-rtmp-win32/conf/nginx.conf:55
+2018/07/05 00:51:38 [emerg] 14984#17980: "alias" directive is duplicate, "root" directive was specified earlier in D:\workplace\nginx\nginx-rtmp-win32/conf/nginx.conf:55
+2018/07/05 00:51:55 [notice] 15444#1212: signal process started
+2018/07/05 00:51:55 [notice] 11088#10092: reconfiguring
+2018/07/05 00:51:55 [emerg] 11088#10092: CreateDirectory() "/temp/hls" failed (3: The system cannot find the path specified)
+2018/07/05 00:55:04 [info] 7960#13256: *28 client connected '127.0.0.1'
+2018/07/05 00:55:04 [info] 7960#13256: *28 connect: app='rtmplive' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/rtmplive' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 00:55:04 [info] 7960#13256: *28 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 00:55:04 [info] 7960#13256: *28 play: name='rtmp' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 00:56:12 [info] 7960#13256: *29 client connected '127.0.0.1'
+2018/07/05 00:56:12 [info] 7960#13256: *29 connect: app='hls' args='' flashver='FMLE/3.0 (compatible; Lavf58.17' swf_url='' tc_url='rtmp://localhost:1935/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 00:56:12 [info] 7960#13256: *29 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 00:56:12 [info] 7960#13256: *29 publish: name='stream' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 00:56:29 [error] 7960#13256: *30 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/temp/hls/stream" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/stream HTTP/1.1", host: "localhost:8080"
+2018/07/05 00:56:35 [info] 7960#13256: *28 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 00:56:35 [info] 7960#13256: *28 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 00:57:29 [info] 7960#13256: *31 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/07/05 00:57:29 [info] 7960#13256: *32 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/07/05 00:57:29 [info] 7960#13256: *33 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/07/05 00:57:30 [info] 7960#13256: *34 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/07/05 00:57:34 [error] 7960#13256: *30 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/temp/hls/stream" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/stream HTTP/1.1", host: "localhost:8080"
+2018/07/05 00:57:35 [error] 7960#13256: *30 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/temp/hls/stream" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/stream HTTP/1.1", host: "localhost:8080"
+2018/07/05 00:58:01 [notice] 16256#14416: signal process started
+2018/07/05 00:58:01 [notice] 11088#10092: reconfiguring
+2018/07/05 00:58:01 [emerg] 11088#10092: CreateDirectory() "/temp/hls" failed (3: The system cannot find the path specified)
+2018/07/05 00:58:06 [info] 7960#13256: *35 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/07/05 00:58:06 [info] 7960#13256: *36 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/07/05 00:58:06 [error] 7960#13256: *30 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/temp/hls/stream" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/stream HTTP/1.1", host: "localhost:8080"
+2018/07/05 00:58:06 [error] 7960#13256: *30 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/temp/hls/stream" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/stream HTTP/1.1", host: "localhost:8080"
+2018/07/05 00:58:12 [notice] 4548#5972: signal process started
+2018/07/05 00:58:12 [notice] 11088#10092: reconfiguring
+2018/07/05 00:58:12 [notice] 11088#10092: using the "select" event method
+2018/07/05 00:58:12 [notice] 11088#10092: start worker processes
+2018/07/05 00:58:12 [notice] 11088#10092: start worker process 14228
+2018/07/05 00:58:12 [notice] 14228#7880: nginx/1.13.12
+2018/07/05 00:58:12 [info] 14228#7880: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/05 00:58:12 [notice] 14228#7880: create thread 18100
+2018/07/05 00:58:12 [notice] 7960#16796: gracefully shutting down
+2018/07/05 00:58:12 [notice] 14228#7880: create thread 15520
+2018/07/05 00:58:12 [notice] 7960#18040: exiting
+2018/07/05 00:58:12 [notice] 14228#7880: create thread 14384
+2018/07/05 00:58:14 [error] 14228#18100: *37 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/temp/hls/hls/stream" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /hls/stream HTTP/1.1", host: "localhost:8080"
+2018/07/05 00:58:23 [info] 7960#13256: *29 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 00:58:23 [info] 7960#13256: *29 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 00:58:23 [info] 7960#13256: *29 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 00:58:23 [info] 7960#13256: *29 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 00:58:23 [notice] 7960#13256: exiting
+2018/07/05 00:58:23 [notice] 7960#16796: exit
+2018/07/05 00:58:23 [notice] 11088#10092: worker process 7960 exited with code 0
+2018/07/05 00:58:32 [info] 14228#18100: *39 client connected '127.0.0.1'
+2018/07/05 00:58:32 [info] 14228#18100: *39 connect: app='rtmplive' args='' flashver='FMLE/3.0 (compatible; Lavf58.17' swf_url='' tc_url='rtmp://localhost:1935/rtmplive' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 00:58:32 [info] 14228#18100: *39 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 00:58:32 [info] 14228#18100: *39 publish: name='rtmp' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 00:58:49 [info] 14228#18100: *40 client connected '127.0.0.1'
+2018/07/05 00:58:49 [info] 14228#18100: *40 connect: app='rtmplive' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/rtmplive' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 00:58:49 [info] 14228#18100: *40 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 00:58:49 [info] 14228#18100: *40 play: name='rtmp' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 00:59:03 [info] 14228#18100: *40 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 00:59:03 [info] 14228#18100: *40 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 00:59:03 [info] 14228#18100: *40 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 00:59:11 [info] 14228#18100: *39 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 00:59:11 [info] 14228#18100: *39 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 00:59:11 [info] 14228#18100: *39 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 00:59:11 [info] 14228#18100: *39 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 00:59:14 [info] 14228#18100: *38 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/07/05 12:57:29 [notice] 17948#9896: using the "select" event method
+2018/07/05 12:57:29 [notice] 17948#9896: nginx/1.13.12
+2018/07/05 12:57:29 [info] 17948#9896: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/05 12:57:29 [notice] 17948#9896: start worker processes
+2018/07/05 12:57:29 [notice] 17948#9896: start worker process 13788
+2018/07/05 12:57:29 [notice] 13788#1124: nginx/1.13.12
+2018/07/05 12:57:29 [info] 13788#1124: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/05 12:57:29 [notice] 13788#1124: create thread 5920
+2018/07/05 12:57:29 [notice] 13788#1124: create thread 16592
+2018/07/05 12:57:29 [notice] 13788#1124: create thread 9408
+2018/07/05 12:58:03 [error] 13788#5920: *1 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2018/07/05 12:58:20 [info] 13788#5920: *3 client connected '127.0.0.1'
+2018/07/05 12:58:20 [info] 13788#5920: *3 connect: app='hls' args='' flashver='FMLE/3.0 (compatible; Lavf58.17' swf_url='' tc_url='rtmp://localhost:1935/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 12:58:20 [info] 13788#5920: *3 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 12:58:20 [info] 13788#5920: *3 publish: name='stream' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 12:59:03 [info] 13788#5920: *2 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/07/05 13:00:06 [emerg] 10140#18424: unexpected "}" in D:\workplace\nginx\nginx-rtmp-win32/conf/nginx.conf:56
+2018/07/05 13:00:28 [emerg] 10172#4468: unexpected "}" in D:\workplace\nginx\nginx-rtmp-win32/conf/nginx.conf:56
+2018/07/05 13:00:42 [emerg] 15004#9876: unexpected "}" in D:\workplace\nginx\nginx-rtmp-win32/conf/nginx.conf:56
+2018/07/05 13:00:45 [notice] 15232#16800: using the "select" event method
+2018/07/05 13:00:45 [notice] 15232#16800: nginx/1.13.12
+2018/07/05 13:00:45 [info] 15232#16800: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/05 13:00:45 [notice] 15232#16800: start worker processes
+2018/07/05 13:00:45 [notice] 15232#16800: start worker process 12256
+2018/07/05 13:00:45 [notice] 12256#17288: nginx/1.13.12
+2018/07/05 13:00:45 [info] 12256#17288: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/05 13:00:45 [notice] 12256#17288: create thread 2700
+2018/07/05 13:00:45 [notice] 12256#17288: create thread 9648
+2018/07/05 13:00:45 [notice] 12256#17288: create thread 15944
+2018/07/05 13:01:05 [notice] 12876#8232: using the "select" event method
+2018/07/05 13:01:05 [notice] 12876#8232: nginx/1.13.12
+2018/07/05 13:01:05 [info] 12876#8232: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/05 13:01:05 [notice] 12876#8232: start worker processes
+2018/07/05 13:01:05 [notice] 12876#8232: start worker process 12628
+2018/07/05 13:01:06 [notice] 12628#8436: nginx/1.13.12
+2018/07/05 13:01:06 [info] 12628#8436: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/05 13:01:06 [notice] 12628#8436: create thread 11628
+2018/07/05 13:01:06 [notice] 12628#8436: create thread 7068
+2018/07/05 13:01:06 [notice] 12628#8436: create thread 15772
+2018/07/05 13:01:10 [notice] 11168#17676: using the "select" event method
+2018/07/05 13:01:10 [notice] 11168#17676: nginx/1.13.12
+2018/07/05 13:01:10 [info] 11168#17676: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/05 13:01:10 [notice] 11168#17676: start worker processes
+2018/07/05 13:01:10 [notice] 11168#17676: start worker process 14124
+2018/07/05 13:01:10 [notice] 14124#10888: nginx/1.13.12
+2018/07/05 13:01:10 [info] 14124#10888: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/05 13:01:10 [notice] 14124#10888: create thread 12712
+2018/07/05 13:01:10 [notice] 14124#10888: create thread 9780
+2018/07/05 13:01:10 [notice] 14124#10888: create thread 13976
+2018/07/05 13:01:28 [notice] 15688#16924: signal process started
+2018/07/05 13:01:28 [notice] 11168#17676: reconfiguring
+2018/07/05 13:01:28 [notice] 11168#17676: using the "select" event method
+2018/07/05 13:01:28 [notice] 11168#17676: start worker processes
+2018/07/05 13:01:28 [notice] 11168#17676: start worker process 15020
+2018/07/05 13:01:28 [notice] 15020#17760: nginx/1.13.12
+2018/07/05 13:01:28 [info] 15020#17760: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/05 13:01:28 [notice] 14124#10888: gracefully shutting down
+2018/07/05 13:01:28 [notice] 14124#9780: exiting
+2018/07/05 13:01:28 [notice] 15020#17760: create thread 10032
+2018/07/05 13:01:28 [notice] 15020#17760: create thread 14472
+2018/07/05 13:01:28 [notice] 15020#17760: create thread 1620
+2018/07/05 13:01:28 [notice] 14124#12712: exiting
+2018/07/05 13:01:28 [notice] 14124#10888: exit
+2018/07/05 13:01:28 [notice] 11168#17676: worker process 14124 exited with code 0
+2018/07/05 13:01:46 [info] 13788#5920: *3 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:01:46 [info] 13788#5920: *3 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:01:46 [info] 13788#5920: *3 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:01:46 [info] 13788#5920: *3 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:01:47 [info] 13788#5920: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/07/05 13:01:47 [error] 13788#5920: *4 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/temp/hls/hls/stream" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /hls/stream HTTP/1.1", host: "localhost:8080"
+2018/07/05 13:02:22 [error] 13788#5920: *4 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/temp/hls/hls/stream.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", host: "localhost:8080"
+2018/07/05 13:02:26 [error] 13788#5920: *4 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/temp/hls/hls/stream.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", host: "localhost:8080"
+2018/07/05 13:03:21 [info] 13788#5920: *6 client connected '127.0.0.1'
+2018/07/05 13:03:21 [info] 13788#5920: *6 connect: app='hls' args='' flashver='FMLE/3.0 (compatible; Lavf58.17' swf_url='' tc_url='rtmp://localhost:1935/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:03:21 [info] 13788#5920: *6 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:03:21 [info] 13788#5920: *6 publish: name='stream' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:03:26 [error] 13788#5920: *4 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/temp/hls/hls/stream.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", host: "localhost:8080"
+2018/07/05 13:03:27 [error] 13788#5920: *4 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/temp/hls/hls/stream.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", host: "localhost:8080"
+2018/07/05 13:03:28 [error] 13788#5920: *4 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/temp/hls/hls/stream.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", host: "localhost:8080"
+2018/07/05 13:03:32 [error] 13788#5920: *4 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/temp/hls/hls/stream.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", host: "localhost:8080"
+2018/07/05 13:03:33 [error] 13788#5920: *4 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/temp/hls/hls/stream.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", host: "localhost:8080"
+2018/07/05 13:03:33 [error] 13788#5920: *4 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/temp/hls/hls/stream.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", host: "localhost:8080"
+2018/07/05 13:03:33 [error] 13788#5920: *4 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/temp/hls/hls/stream.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", host: "localhost:8080"
+2018/07/05 13:03:34 [error] 13788#5920: *4 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/temp/hls/hls/stream.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", host: "localhost:8080"
+2018/07/05 13:03:34 [error] 13788#5920: *4 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/temp/hls/hls/stream.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", host: "localhost:8080"
+2018/07/05 13:03:34 [error] 13788#5920: *4 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/temp/hls/hls/stream.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", host: "localhost:8080"
+2018/07/05 13:03:35 [error] 13788#5920: *4 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/temp/hls/hls/stream.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", host: "localhost:8080"
+2018/07/05 13:03:35 [error] 13788#5920: *4 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/temp/hls/hls/stream.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", host: "localhost:8080"
+2018/07/05 13:04:07 [info] 13788#5920: *7 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/07/05 13:06:48 [info] 13788#5920: *6 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:06:48 [info] 13788#5920: *6 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:06:48 [info] 13788#5920: *6 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:06:48 [info] 13788#5920: *6 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:25:12 [info] 13788#5920: *8 client connected '127.0.0.1'
+2018/07/05 13:25:12 [info] 13788#5920: *8 connect: app='hls' args='' flashver='FMLE/3.0 (compatible; Lavf58.17' swf_url='' tc_url='rtmp://localhost:1935/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:25:12 [info] 13788#5920: *8 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:25:12 [info] 13788#5920: *8 publish: name='stream' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:25:26 [error] 13788#5920: *9 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/temp/hls/hls/stream" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /hls/stream HTTP/1.1", host: "localhost:8080"
+2018/07/05 13:25:44 [info] 13788#5920: *10 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/07/05 13:25:44 [info] 13788#5920: *9 client 127.0.0.1 closed keepalive connection (10054: An existing connection was forcibly closed by the remote host)
+2018/07/05 13:25:46 [info] 13788#5920: *8 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:25:46 [info] 13788#5920: *8 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:25:46 [info] 13788#5920: *8 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:25:46 [info] 13788#5920: *8 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:27:12 [error] 13788#5920: *11 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/temp/hls/hls/stream" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /hls/stream HTTP/1.1", host: "localhost:8080"
+2018/07/05 13:30:51 [error] 13788#5920: *13 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/temp/hls/hls/stream.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", host: "localhost:8080"
+2018/07/05 13:31:07 [info] 13788#5920: *14 client connected '127.0.0.1'
+2018/07/05 13:31:07 [info] 13788#5920: *14 connect: app='hls' args='' flashver='FMLE/3.0 (compatible; Lavf58.17' swf_url='' tc_url='rtmp://localhost:1935/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:31:07 [info] 13788#5920: *14 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:31:07 [info] 13788#5920: *14 publish: name='stream' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:31:18 [info] 13788#5920: *12 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/07/05 13:31:18 [error] 13788#5920: *13 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/temp/hls/hls/stream.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", host: "localhost:8080"
+2018/07/05 13:31:19 [error] 13788#5920: *13 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/temp/hls/hls/stream.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", host: "localhost:8080"
+2018/07/05 13:31:20 [error] 13788#5920: *13 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/temp/hls/hls/stream.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", host: "localhost:8080"
+2018/07/05 13:31:21 [error] 13788#5920: *13 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/temp/hls/hls/stream.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", host: "localhost:8080"
+2018/07/05 13:31:21 [error] 13788#5920: *13 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/temp/hls/hls/stream.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", host: "localhost:8080"
+2018/07/05 13:31:21 [error] 13788#5920: *13 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/temp/hls/hls/stream.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", host: "localhost:8080"
+2018/07/05 13:31:21 [error] 13788#5920: *13 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/temp/hls/hls/stream.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", host: "localhost:8080"
+2018/07/05 13:31:28 [info] 13788#5920: *14 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:31:28 [info] 13788#5920: *14 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:31:28 [info] 13788#5920: *14 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:31:28 [info] 13788#5920: *14 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:32:00 [info] 13788#5920: *15 client connected '127.0.0.1'
+2018/07/05 13:32:00 [info] 13788#5920: *15 connect: app='rtmplive' args='' flashver='FMLE/3.0 (compatible; Lavf58.17' swf_url='' tc_url='rtmp://localhost:1935/rtmplive' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:32:00 [info] 13788#5920: *15 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:32:00 [info] 13788#5920: *15 publish: name='rtmp' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:32:31 [info] 13788#5920: *16 client connected '127.0.0.1'
+2018/07/05 13:32:31 [info] 13788#5920: *16 connect: app='rtmplive' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/rtmplive' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:32:31 [info] 13788#5920: *16 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:32:31 [info] 13788#5920: *16 play: name='rtmp' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:33:07 [info] 13788#5920: *16 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:33:07 [info] 13788#5920: *16 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:33:07 [info] 13788#5920: *16 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:33:12 [info] 13788#5920: *15 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:33:12 [info] 13788#5920: *15 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:33:12 [info] 13788#5920: *15 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:33:12 [info] 13788#5920: *15 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:33:43 [info] 13788#5920: *17 client connected '127.0.0.1'
+2018/07/05 13:33:43 [info] 13788#5920: *17 connect: app='hls' args='' flashver='FMLE/3.0 (compatible; Lavf58.17' swf_url='' tc_url='rtmp://localhost:1935/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:33:43 [info] 13788#5920: *17 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:33:43 [info] 13788#5920: *17 publish: name='stream' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:34:05 [error] 13788#5920: *18 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/temp/hls/hls/stream.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", host: "localhost:8080"
+2018/07/05 13:34:06 [error] 13788#5920: *18 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/temp/hls/hls/stream.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", host: "localhost:8080"
+2018/07/05 13:35:11 [info] 13788#5920: *18 client 127.0.0.1 closed keepalive connection
+2018/07/05 13:35:11 [error] 13788#5920: *19 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/html/temp/hls/m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /temp/hls/m3u8 HTTP/1.1", host: "localhost:8080"
+2018/07/05 13:35:58 [info] 13788#5920: *20 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/07/05 13:35:58 [error] 13788#5920: *19 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/html/temp/hls/stream.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /temp/hls/stream.m3u8 HTTP/1.1", host: "localhost:8080"
+2018/07/05 13:36:05 [error] 13788#5920: *19 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/temp/hls/hls/stream.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", host: "localhost:8080"
+2018/07/05 13:37:09 [info] 13788#5920: *17 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:37:09 [info] 13788#5920: *17 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:37:09 [info] 13788#5920: *17 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:37:09 [info] 13788#5920: *17 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:44:34 [info] 13788#5920: *21 client connected '127.0.0.1'
+2018/07/05 13:44:34 [info] 13788#5920: *21 connect: app='hls' args='' flashver='FMLE/3.0 (compatible; Lavf58.17' swf_url='' tc_url='rtmp://localhost:1935/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:44:34 [info] 13788#5920: *21 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:44:34 [info] 13788#5920: *21 publish: name='stream' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:45:04 [error] 13788#5920: *22 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/temp/hls/hls/stream.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", host: "localhost:8080"
+2018/07/05 13:45:13 [error] 13788#5920: *22 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/temp/hls/hls" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls HTTP/1.1", host: "localhost:8080"
+2018/07/05 13:46:17 [info] 13788#5920: *22 client 127.0.0.1 closed keepalive connection
+2018/07/05 13:46:17 [error] 13788#5920: *23 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/temp/hls/hls/stream.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", host: "localhost:8080"
+2018/07/05 13:47:46 [info] 13788#5920: *21 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:47:46 [info] 13788#5920: *21 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:47:46 [info] 13788#5920: *21 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:47:46 [info] 13788#5920: *21 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:49:06 [info] 13788#5920: *24 client connected '127.0.0.1'
+2018/07/05 13:49:06 [info] 13788#5920: *24 connect: app='hls' args='' flashver='FMLE/3.0 (compatible; Lavf58.17' swf_url='' tc_url='rtmp://localhost:1935/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:49:06 [info] 13788#5920: *24 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:49:06 [info] 13788#5920: *24 publish: name='stream' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:49:24 [error] 13788#5920: *25 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/temp/hls/hls/stream.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", host: "localhost:8080"
+2018/07/05 13:49:49 [info] 13788#5920: *24 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:49:49 [info] 13788#5920: *24 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:49:49 [info] 13788#5920: *24 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 13:49:49 [info] 13788#5920: *24 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 15:38:05 [error] 13788#5920: *26 CreateFile() "D:\workplace\nginx\nginx-rtmp-win32/temp/hls/hls/strea5.m3u8" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /hls/strea5.m3u8 HTTP/1.1", host: "localhost:8080"
+2018/07/05 15:38:43 [info] 13788#5920: *27 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2018/07/05 15:38:43 [info] 13788#5920: *26 client 127.0.0.1 closed keepalive connection (10054: An existing connection was forcibly closed by the remote host)
+2018/07/05 16:49:33 [notice] 14640#15628: using the "select" event method
+2018/07/05 16:49:33 [notice] 14640#15628: nginx/1.13.12
+2018/07/05 16:49:33 [info] 14640#15628: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/05 16:49:33 [notice] 14640#15628: start worker processes
+2018/07/05 16:49:33 [notice] 14640#15628: start worker process 13208
+2018/07/05 16:49:34 [notice] 13208#8168: nginx/1.13.12
+2018/07/05 16:49:34 [info] 13208#8168: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/05 16:49:34 [notice] 13208#8168: create thread 8752
+2018/07/05 16:49:34 [notice] 13208#8168: create thread 15776
+2018/07/05 16:49:34 [notice] 13208#8168: create thread 17804
+2018/07/05 16:54:33 [notice] 9612#3328: signal process started
+2018/07/05 16:54:33 [notice] 14640#15628: reconfiguring
+2018/07/05 16:54:33 [notice] 14640#15628: using the "select" event method
+2018/07/05 16:54:33 [notice] 14640#15628: start worker processes
+2018/07/05 16:54:33 [notice] 14640#15628: start worker process 5492
+2018/07/05 16:54:33 [notice] 5492#16272: nginx/1.13.12
+2018/07/05 16:54:33 [info] 5492#16272: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/05 16:54:33 [notice] 13208#8168: gracefully shutting down
+2018/07/05 16:54:33 [notice] 5492#16272: create thread 8216
+2018/07/05 16:54:33 [notice] 13208#15776: exiting
+2018/07/05 16:54:33 [notice] 5492#16272: create thread 7176
+2018/07/05 16:54:33 [notice] 5492#16272: create thread 8372
+2018/07/05 16:54:34 [notice] 13208#8752: exiting
+2018/07/05 16:54:34 [notice] 13208#8168: exit
+2018/07/05 16:54:34 [notice] 14640#15628: worker process 13208 exited with code 0
+2018/07/05 16:55:16 [notice] 12692#10052: signal process started
+2018/07/05 16:55:16 [notice] 14640#15628: exiting
+2018/07/05 16:55:16 [notice] 5492#16272: gracefully shutting down
+2018/07/05 16:55:16 [notice] 5492#7176: exiting
+2018/07/05 16:55:17 [notice] 5492#8216: exiting
+2018/07/05 16:55:17 [notice] 5492#16272: exit
+2018/07/05 16:55:17 [notice] 14640#15628: worker process 5492 exited with code 0
+2018/07/05 16:55:17 [notice] 14640#15628: exit
+2018/07/05 16:55:34 [notice] 18232#18340: using the "select" event method
+2018/07/05 16:55:34 [notice] 18232#18340: nginx/1.13.12
+2018/07/05 16:55:34 [info] 18232#18340: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/05 16:55:34 [notice] 18232#18340: start worker processes
+2018/07/05 16:55:34 [notice] 18232#18340: start worker process 2864
+2018/07/05 16:55:34 [notice] 2864#17120: nginx/1.13.12
+2018/07/05 16:55:34 [info] 2864#17120: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/05 16:55:34 [notice] 2864#17120: create thread 12572
+2018/07/05 16:55:34 [notice] 2864#17120: create thread 15620
+2018/07/05 16:55:34 [notice] 2864#17120: create thread 6608
+2018/07/05 16:55:56 [notice] 15300#12044: signal process started
+2018/07/05 16:55:56 [notice] 18232#18340: exiting
+2018/07/05 16:55:56 [notice] 2864#17120: gracefully shutting down
+2018/07/05 16:55:56 [notice] 2864#15620: exiting
+2018/07/05 16:55:57 [notice] 2864#12572: exiting
+2018/07/05 16:55:57 [notice] 2864#17120: exit
+2018/07/05 16:55:57 [notice] 18232#18340: worker process 2864 exited with code 0
+2018/07/05 16:55:57 [notice] 18232#18340: exit
+2018/07/05 17:27:08 [notice] 14196#16768: using the "select" event method
+2018/07/05 17:27:08 [notice] 14196#16768: nginx/1.13.12
+2018/07/05 17:27:08 [info] 14196#16768: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/05 17:27:08 [notice] 14196#16768: start worker processes
+2018/07/05 17:27:08 [notice] 14196#16768: start worker process 8096
+2018/07/05 17:27:08 [notice] 8096#2160: nginx/1.13.12
+2018/07/05 17:27:08 [info] 8096#2160: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/05 17:27:08 [notice] 8096#2160: create thread 7732
+2018/07/05 17:27:08 [notice] 8096#2160: create thread 11556
+2018/07/05 17:27:08 [notice] 8096#2160: create thread 13628
+2018/07/05 17:27:22 [notice] 784#15820: using the "select" event method
+2018/07/05 17:27:22 [notice] 784#15820: nginx/1.13.12
+2018/07/05 17:27:22 [info] 784#15820: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/05 17:27:22 [notice] 784#15820: start worker processes
+2018/07/05 17:27:22 [notice] 784#15820: start worker process 6496
+2018/07/05 17:27:22 [notice] 6496#4428: nginx/1.13.12
+2018/07/05 17:27:22 [info] 6496#4428: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/05 17:27:22 [notice] 6496#4428: create thread 12044
+2018/07/05 17:27:22 [notice] 6496#4428: create thread 6576
+2018/07/05 17:27:22 [notice] 6496#4428: create thread 18320
+2018/07/05 17:35:26 [notice] 68#17588: signal process started
+2018/07/05 17:35:26 [notice] 784#15820: exiting
+2018/07/05 17:35:26 [notice] 6496#4428: gracefully shutting down
+2018/07/05 17:35:26 [notice] 6496#6576: exiting
+2018/07/05 17:35:26 [notice] 6496#12044: exiting
+2018/07/05 17:35:26 [notice] 6496#4428: exit
+2018/07/05 17:35:26 [notice] 784#15820: worker process 6496 exited with code 0
+2018/07/05 17:35:26 [notice] 784#15820: exit
+2018/07/05 17:35:28 [notice] 14400#9488: using the "select" event method
+2018/07/05 17:35:28 [notice] 14400#9488: nginx/1.13.12
+2018/07/05 17:35:28 [info] 14400#9488: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/05 17:35:28 [notice] 14400#9488: start worker processes
+2018/07/05 17:35:28 [notice] 14400#9488: start worker process 15036
+2018/07/05 17:35:28 [notice] 15036#13740: nginx/1.13.12
+2018/07/05 17:35:28 [info] 15036#13740: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/05 17:35:28 [notice] 15036#13740: create thread 7548
+2018/07/05 17:35:28 [notice] 15036#13740: create thread 1932
+2018/07/05 17:35:28 [notice] 15036#13740: create thread 15292
+2018/07/05 19:04:47 [notice] 12368#13204: using the "select" event method
+2018/07/05 19:04:47 [notice] 12368#13204: nginx/1.13.12
+2018/07/05 19:04:47 [info] 12368#13204: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/05 19:04:47 [notice] 12368#13204: start worker processes
+2018/07/05 19:04:47 [notice] 12368#13204: start worker process 10744
+2018/07/05 19:04:47 [notice] 10744#9772: nginx/1.13.12
+2018/07/05 19:04:47 [info] 10744#9772: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/05 19:04:47 [notice] 10744#9772: create thread 736
+2018/07/05 19:04:47 [notice] 10744#9772: create thread 14256
+2018/07/05 19:04:47 [notice] 10744#9772: create thread 6768
+2018/07/05 19:05:02 [notice] 10876#900: signal process started
+2018/07/05 19:05:02 [notice] 12368#13204: reconfiguring
+2018/07/05 19:05:02 [notice] 12368#13204: using the "select" event method
+2018/07/05 19:05:02 [notice] 12368#13204: start worker processes
+2018/07/05 19:05:02 [notice] 12368#13204: start worker process 1648
+2018/07/05 19:05:03 [notice] 1648#13004: nginx/1.13.12
+2018/07/05 19:05:03 [info] 1648#13004: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/05 19:05:03 [notice] 10744#9772: gracefully shutting down
+2018/07/05 19:05:03 [notice] 1648#13004: create thread 8408
+2018/07/05 19:05:03 [notice] 10744#14256: exiting
+2018/07/05 19:05:03 [notice] 1648#13004: create thread 14356
+2018/07/05 19:05:03 [notice] 1648#13004: create thread 2560
+2018/07/05 19:05:03 [notice] 10744#736: exiting
+2018/07/05 19:05:03 [notice] 10744#9772: exit
+2018/07/05 19:05:03 [notice] 12368#13204: worker process 10744 exited with code 0
+2018/07/05 19:05:59 [info] 1648#8408: *1 client connected '127.0.0.1'
+2018/07/05 19:05:59 [info] 1648#8408: *1 connect: app='hls' args='' flashver='FMLE/3.0 (compatible; Lavf58.17' swf_url='' tc_url='rtmp://localhost:1935/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 19:05:59 [info] 1648#8408: *1 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 19:05:59 [info] 1648#8408: *1 publish: name='stream' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 19:06:36 [info] 1648#8408: *2 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:06:36 [info] 1648#8408: *2 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream-0.ts HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:06:36 [info] 1648#8408: *2 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream-1.ts HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:06:36 [info] 1648#8408: *2 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream-2.ts HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:06:36 [info] 1648#8408: *2 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream-3.ts HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:06:45 [info] 1648#8408: *2 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:06:45 [info] 1648#8408: *2 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream-4.ts HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:06:55 [info] 1648#8408: *2 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:06:55 [info] 1648#8408: *2 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream-5.ts HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:06:55 [info] 1648#8408: *2 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream-6.ts HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:08:25 [info] 1648#8408: *3 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:08:35 [info] 1648#8408: *3 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:08:45 [info] 1648#8408: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/07/05 19:08:45 [info] 1648#8408: *3 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:08:54 [info] 1648#8408: *3 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:09:04 [info] 1648#8408: *3 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:09:14 [info] 1648#8408: *3 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:09:24 [info] 1648#8408: *3 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:09:25 [info] 1648#8408: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 19:09:25 [info] 1648#8408: *1 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 19:09:25 [info] 1648#8408: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 19:09:25 [info] 1648#8408: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 19:09:34 [info] 1648#8408: *3 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:09:43 [info] 1648#8408: *3 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:09:53 [info] 1648#8408: *3 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:10:03 [info] 1648#8408: *3 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:10:03 [error] 1648#8408: *3 CreateFile() "D:\workplace\h5live-demo\tools\nginx-rtmp-win32/temp/hls/stream.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", host: "localhost:8082", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:13:14 [info] 1648#8408: *5 client connected '127.0.0.1'
+2018/07/05 19:13:14 [info] 1648#8408: *5 connect: app='hls' args='' flashver='FMLE/3.0 (compatible; Lavf58.17' swf_url='' tc_url='rtmp://localhost:1935/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 19:13:14 [info] 1648#8408: *5 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 19:13:14 [info] 1648#8408: *5 publish: name='stream' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 19:13:49 [info] 1648#8408: *6 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:13:50 [info] 1648#8408: *6 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream-0.ts HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:13:50 [info] 1648#8408: *6 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream-1.ts HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:13:50 [info] 1648#8408: *6 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream-2.ts HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:13:50 [info] 1648#8408: *6 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream-3.ts HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:13:59 [info] 1648#8408: *6 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:13:59 [info] 1648#8408: *6 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream-4.ts HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:14:09 [info] 1648#8408: *6 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:14:09 [info] 1648#8408: *6 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream-5.ts HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:14:09 [info] 1648#8408: *6 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream-6.ts HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:14:19 [info] 1648#8408: *6 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:14:19 [info] 1648#8408: *6 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream-7.ts HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:14:27 [info] 1648#8408: *5 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 19:14:27 [info] 1648#8408: *5 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 19:14:27 [info] 1648#8408: *5 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 19:14:27 [info] 1648#8408: *5 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 19:24:05 [error] 1648#8408: *7 CreateFile() "D:\workplace\h5live-demo\tools\nginx-rtmp-win32/html1/source/videojs" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /source/videojs HTTP/1.1", host: "localhost:8082"
+2018/07/05 19:25:05 [info] 1648#8408: *8 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/07/05 19:26:23 [notice] 12060#12404: signal process started
+2018/07/05 19:26:23 [notice] 12368#13204: reconfiguring
+2018/07/05 19:26:23 [notice] 12368#13204: using the "select" event method
+2018/07/05 19:26:23 [notice] 12368#13204: start worker processes
+2018/07/05 19:26:23 [notice] 12368#13204: start worker process 4496
+2018/07/05 19:26:23 [notice] 4496#16152: nginx/1.13.12
+2018/07/05 19:26:23 [info] 4496#16152: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/05 19:26:23 [notice] 4496#16152: create thread 6944
+2018/07/05 19:26:23 [notice] 1648#13004: gracefully shutting down
+2018/07/05 19:26:23 [notice] 4496#16152: create thread 13540
+2018/07/05 19:26:23 [notice] 1648#14356: exiting
+2018/07/05 19:26:23 [notice] 4496#16152: create thread 15368
+2018/07/05 19:26:23 [notice] 1648#8408: exiting
+2018/07/05 19:26:23 [notice] 1648#13004: exit
+2018/07/05 19:26:23 [notice] 12368#13204: worker process 1648 exited with code 0
+2018/07/05 19:26:32 [error] 4496#6944: *10 CreateFile() "D:\workplace\h5live-demo\tools\nginx-rtmp-win32/html1/h5live-demo/source/videojs" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /h5live-demo/source/videojs HTTP/1.1", host: "localhost:8082"
+2018/07/05 19:26:32 [error] 4496#6944: *10 CreateFile() "D:\workplace\h5live-demo\tools\nginx-rtmp-win32/html1/h5live-demo/source/videojs" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /h5live-demo/source/videojs HTTP/1.1", host: "localhost:8082", referrer: "diagnostics://2/"
+2018/07/05 19:27:32 [info] 4496#6944: *9 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/07/05 19:27:43 [info] 4496#6944: *10 client 127.0.0.1 closed keepalive connection
+2018/07/05 19:27:43 [error] 4496#6944: *11 CreateFile() "D:\workplace\h5live-demo\tools\nginx-rtmp-win32/html1/h5live-demo/source/videojs" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /h5live-demo/source/videojs HTTP/1.1", host: "localhost:8082"
+2018/07/05 19:29:25 [notice] 11616#1900: signal process started
+2018/07/05 19:29:25 [notice] 12368#13204: reconfiguring
+2018/07/05 19:29:25 [notice] 12368#13204: using the "select" event method
+2018/07/05 19:29:25 [notice] 12368#13204: start worker processes
+2018/07/05 19:29:25 [notice] 12368#13204: start worker process 14064
+2018/07/05 19:29:25 [notice] 14064#11816: nginx/1.13.12
+2018/07/05 19:29:25 [info] 14064#11816: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/05 19:29:25 [notice] 4496#16152: gracefully shutting down
+2018/07/05 19:29:25 [notice] 14064#11816: create thread 11308
+2018/07/05 19:29:25 [notice] 4496#13540: exiting
+2018/07/05 19:29:25 [notice] 14064#11816: create thread 14684
+2018/07/05 19:29:25 [notice] 14064#11816: create thread 12596
+2018/07/05 19:29:25 [notice] 4496#6944: exiting
+2018/07/05 19:29:25 [notice] 4496#16152: exit
+2018/07/05 19:29:25 [notice] 12368#13204: worker process 4496 exited with code 0
+2018/07/05 19:29:31 [error] 14064#11308: *12 CreateFile() "D:\workplace\h5live-demo\tools\nginx-rtmp-win32/html1/h5live-demo/source/videojs" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /h5live-demo/source/videojs HTTP/1.1", host: "localhost:8082"
+2018/07/05 19:29:43 [error] 14064#11308: *12 CreateFile() "D:\workplace\h5live-demo\tools\nginx-rtmp-win32/html1/videojs" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /videojs HTTP/1.1", host: "localhost:8082"
+2018/07/05 19:29:43 [error] 14064#11308: *12 CreateFile() "D:\workplace\h5live-demo\tools\nginx-rtmp-win32/html1/videojs" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /videojs HTTP/1.1", host: "localhost:8082", referrer: "diagnostics://2/"
+2018/07/05 19:29:56 [error] 14064#11308: *12 CreateFile() "D:\workplace\h5live-demo\tools\nginx-rtmp-win32/html1/h5live-demo/source/videojs" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /h5live-demo/source/videojs HTTP/1.1", host: "localhost:8082"
+2018/07/05 19:31:53 [notice] 8952#8992: signal process started
+2018/07/05 19:31:53 [notice] 12368#13204: reconfiguring
+2018/07/05 19:31:53 [notice] 12368#13204: using the "select" event method
+2018/07/05 19:31:53 [notice] 12368#13204: start worker processes
+2018/07/05 19:31:53 [notice] 12368#13204: start worker process 14536
+2018/07/05 19:31:53 [notice] 14536#2528: nginx/1.13.12
+2018/07/05 19:31:53 [info] 14536#2528: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/05 19:31:53 [notice] 14064#11816: gracefully shutting down
+2018/07/05 19:31:53 [notice] 14064#14684: exiting
+2018/07/05 19:31:53 [notice] 14536#2528: create thread 5188
+2018/07/05 19:31:53 [notice] 14536#2528: create thread 15280
+2018/07/05 19:31:53 [notice] 14536#2528: create thread 16220
+2018/07/05 19:31:53 [notice] 14064#11308: exiting
+2018/07/05 19:31:53 [notice] 14064#11816: exit
+2018/07/05 19:31:53 [notice] 12368#13204: worker process 14064 exited with code 0
+2018/07/05 19:32:02 [notice] 11776#11468: signal process started
+2018/07/05 19:32:02 [notice] 12368#13204: reconfiguring
+2018/07/05 19:32:02 [notice] 12368#13204: using the "select" event method
+2018/07/05 19:32:02 [notice] 12368#13204: start worker processes
+2018/07/05 19:32:02 [notice] 12368#13204: start worker process 10160
+2018/07/05 19:32:02 [notice] 10160#14420: nginx/1.13.12
+2018/07/05 19:32:02 [info] 10160#14420: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/05 19:32:02 [notice] 14536#2528: gracefully shutting down
+2018/07/05 19:32:02 [notice] 10160#14420: create thread 2084
+2018/07/05 19:32:02 [notice] 14536#15280: exiting
+2018/07/05 19:32:02 [notice] 10160#14420: create thread 13996
+2018/07/05 19:32:02 [notice] 10160#14420: create thread 7128
+2018/07/05 19:32:03 [notice] 14536#5188: exiting
+2018/07/05 19:32:03 [notice] 14536#2528: exit
+2018/07/05 19:32:03 [notice] 12368#13204: worker process 14536 exited with code 0
+2018/07/05 19:33:08 [error] 10160#2084: *13 CreateFile() "D:\workplace\h5live-demo\tools\nginx-rtmp-win32/h5live-demo\source\videojs/videojs" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /videojs HTTP/1.1", host: "localhost:8082"
+2018/07/05 19:33:08 [error] 10160#2084: *13 CreateFile() "D:\workplace\h5live-demo\tools\nginx-rtmp-win32/h5live-demo\source\videojs/videojs" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /videojs HTTP/1.1", host: "localhost:8082", referrer: "diagnostics://2/"
+2018/07/05 19:38:17 [error] 10160#2084: *14 CreateFile() "D:\workplace\h5live-demo\tools\nginx-rtmp-win32/temp/hls/stream.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", host: "localhost:8082"
+2018/07/05 19:39:17 [notice] 12368#13204: worker process 10160 exited with code 1
+2018/07/05 19:39:17 [notice] 12368#13204: start worker process 14552
+2018/07/05 19:39:17 [notice] 14552#7428: nginx/1.13.12
+2018/07/05 19:39:17 [info] 14552#7428: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/05 19:39:17 [notice] 14552#7428: create thread 6364
+2018/07/05 19:39:17 [notice] 14552#7428: create thread 14660
+2018/07/05 19:39:17 [notice] 14552#7428: create thread 8384
+2018/07/05 19:47:57 [notice] 6332#15520: using the "select" event method
+2018/07/05 19:47:57 [notice] 6332#15520: nginx/1.13.12
+2018/07/05 19:47:57 [info] 6332#15520: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/05 19:47:57 [notice] 6332#15520: start worker processes
+2018/07/05 19:47:57 [notice] 6332#15520: start worker process 8284
+2018/07/05 19:47:57 [notice] 8284#11416: nginx/1.13.12
+2018/07/05 19:47:57 [info] 8284#11416: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/05 19:47:57 [notice] 8284#11416: create thread 13476
+2018/07/05 19:47:57 [notice] 8284#11416: create thread 1196
+2018/07/05 19:47:57 [notice] 8284#11416: create thread 2148
+2018/07/05 19:48:02 [error] 8284#13476: *1 CreateFile() "D:\workplace\h5live-demo\nginx-rtmp-win32/temp/hls/stream.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", host: "localhost:8082"
+2018/07/05 19:48:16 [info] 8284#13476: *2 client connected '127.0.0.1'
+2018/07/05 19:48:16 [info] 8284#13476: *2 connect: app='hls' args='' flashver='FMLE/3.0 (compatible; Lavf58.17' swf_url='' tc_url='rtmp://localhost:1935/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 19:48:16 [info] 8284#13476: *2 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 19:48:16 [info] 8284#13476: *2 publish: name='stream' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 19:48:20 [error] 8284#13476: *1 CreateFile() "D:\workplace\h5live-demo\nginx-rtmp-win32/temp/hls/stream.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", host: "localhost:8082"
+2018/07/05 19:48:21 [error] 8284#13476: *1 CreateFile() "D:\workplace\h5live-demo\nginx-rtmp-win32/temp/hls/stream.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", host: "localhost:8082"
+2018/07/05 19:48:21 [error] 8284#13476: *1 CreateFile() "D:\workplace\h5live-demo\nginx-rtmp-win32/temp/hls/stream.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", host: "localhost:8082"
+2018/07/05 19:48:29 [info] 8284#13476: *1 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:48:29 [info] 8284#13476: *1 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream-0.ts HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:48:37 [info] 8284#13476: *1 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:48:37 [info] 8284#13476: *1 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream-1.ts HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:48:45 [info] 8284#13476: *1 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:48:45 [info] 8284#13476: *1 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream-2.ts HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:48:53 [info] 8284#13476: *1 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:48:53 [info] 8284#13476: *1 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream-3.ts HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:49:01 [info] 8284#13476: *1 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:49:01 [info] 8284#13476: *1 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream-4.ts HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:49:08 [info] 8284#13476: *1 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:49:08 [info] 8284#13476: *1 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream-5.ts HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:49:16 [info] 8284#13476: *1 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:49:16 [info] 8284#13476: *1 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream-6.ts HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:51:43 [info] 8284#13476: *2 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 19:51:43 [info] 8284#13476: *2 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 19:51:43 [info] 8284#13476: *2 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 19:51:43 [info] 8284#13476: *2 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 19:52:40 [info] 8284#13476: *3 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:52:44 [info] 8284#13476: *5 client connected '127.0.0.1'
+2018/07/05 19:52:44 [info] 8284#13476: *5 connect: app='hls' args='' flashver='FMLE/3.0 (compatible; Lavf58.17' swf_url='' tc_url='rtmp://localhost:1935/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 19:52:44 [info] 8284#13476: *5 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 19:52:44 [info] 8284#13476: *5 publish: name='stream' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 19:52:48 [info] 8284#13476: *3 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:52:52 [info] 8284#13476: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/07/05 19:52:52 [info] 8284#13476: *3 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:52:52 [info] 8284#13476: *3 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream-23.ts HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:52:52 [info] 8284#13476: *3 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream-24.ts HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:52:52 [info] 8284#13476: *3 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream-25.ts HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:52:52 [info] 8284#13476: *3 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream-26.ts HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:52:52 [info] 8284#13476: *3 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream-27.ts HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:52:52 [info] 8284#13476: *3 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream-28.ts HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:52:54 [info] 8284#13476: *3 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:52:54 [info] 8284#13476: *3 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream-29.ts HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:56:10 [info] 8284#13476: *5 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 19:56:10 [info] 8284#13476: *5 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 19:56:10 [info] 8284#13476: *5 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 19:56:10 [info] 8284#13476: *5 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 19:56:21 [info] 8284#13476: *6 client connected '127.0.0.1'
+2018/07/05 19:56:21 [info] 8284#13476: *6 connect: app='hls' args='' flashver='FMLE/3.0 (compatible; Lavf58.17' swf_url='' tc_url='rtmp://localhost:1935/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 19:56:21 [info] 8284#13476: *6 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 19:56:21 [info] 8284#13476: *6 publish: name='stream' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 19:56:30 [info] 8284#13476: *7 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:56:30 [info] 8284#13476: *7 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream-52.ts HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:56:30 [info] 8284#13476: *7 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream-53.ts HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:56:30 [info] 8284#13476: *7 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream-54.ts HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:56:30 [info] 8284#13476: *7 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream-55.ts HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:56:30 [info] 8284#13476: *7 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream-56.ts HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:56:30 [info] 8284#13476: *7 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream-57.ts HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:56:32 [info] 8284#13476: *7 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:56:32 [info] 8284#13476: *7 client sent invalid header line: "GetContentFeatures.DLNA.ORG: 1" while reading client request headers, client: 127.0.0.1, server: , request: "GET /hls/stream-58.ts HTTP/1.1", referrer: "http://localhost:8082/hls/stream.m3u8"
+2018/07/05 19:59:47 [info] 8284#13476: *6 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 19:59:47 [info] 8284#13476: *6 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 19:59:47 [info] 8284#13476: *6 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 19:59:47 [info] 8284#13476: *6 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 20:01:59 [error] 8284#13476: *8 CreateFile() "D:\workplace\h5live-demo\nginx-rtmp-win32/temp/hls/stream.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", host: "localhost:8082"
+2018/07/05 20:38:11 [info] 8284#13476: *9 client connected '127.0.0.1'
+2018/07/05 20:38:11 [info] 8284#13476: *9 connect: app='hls' args='' flashver='FMLE/3.0 (compatible; Lavf58.17' swf_url='' tc_url='rtmp://localhost:1935/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 20:38:11 [info] 8284#13476: *9 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 20:38:11 [info] 8284#13476: *9 publish: name='stream' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 20:39:33 [info] 8284#13476: *11 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/07/05 20:39:33 [info] 8284#13476: *12 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/07/05 20:39:33 [info] 8284#13476: *13 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8082
+2018/07/05 20:41:37 [info] 8284#13476: *9 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 20:41:37 [info] 8284#13476: *9 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 20:41:37 [info] 8284#13476: *9 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 20:41:37 [info] 8284#13476: *9 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/05 22:49:20 [notice] 6332#15520: worker process 8284 exited with code 1
+2018/07/05 22:49:20 [notice] 6332#15520: start worker process 18696
+2018/07/05 22:49:20 [notice] 18696#17136: nginx/1.13.12
+2018/07/05 22:49:20 [info] 18696#17136: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/05 22:49:20 [notice] 18696#17136: create thread 6456
+2018/07/05 22:49:20 [notice] 18696#17136: create thread 18036
+2018/07/05 22:49:20 [notice] 18696#17136: create thread 18680
+2018/07/06 12:50:14 [notice] 7424#11168: using the "select" event method
+2018/07/06 12:50:14 [notice] 7424#11168: nginx/1.13.12
+2018/07/06 12:50:14 [info] 7424#11168: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/06 12:50:14 [notice] 7424#11168: start worker processes
+2018/07/06 12:50:14 [notice] 7424#11168: start worker process 14608
+2018/07/06 12:50:14 [notice] 14608#4156: nginx/1.13.12
+2018/07/06 12:50:14 [info] 14608#4156: OS: 260200 build:9200, "", suite:100, type:1
+2018/07/06 12:50:14 [notice] 14608#4156: create thread 10568
+2018/07/06 12:50:14 [notice] 14608#4156: create thread 19056
+2018/07/06 12:50:14 [notice] 14608#4156: create thread 18460
+2018/07/06 12:59:06 [info] 14608#10568: *1 client connected '127.0.0.1'
+2018/07/06 12:59:06 [info] 14608#10568: *1 connect: app='rtmplive' args='' flashver='FMLE/3.0 (compatible; Lavf58.17' swf_url='' tc_url='rtmp://localhost:1935/rtmplive' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/06 12:59:06 [info] 14608#10568: *1 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/06 12:59:06 [info] 14608#10568: *1 publish: name='rtmp' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/06 13:00:27 [info] 14608#10568: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/06 13:00:27 [info] 14608#10568: *1 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/06 13:00:27 [info] 14608#10568: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/06 13:00:27 [info] 14608#10568: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2018/07/06 13:01:52 [notice] 18704#18784: signal process started
+2018/07/06 13:01:52 [notice] 7424#11168: exiting
+2018/07/06 13:01:52 [notice] 14608#4156: gracefully shutting down
+2018/07/06 13:01:52 [notice] 14608#19056: exiting
+2018/07/06 13:01:52 [notice] 14608#10568: exiting
+2018/07/06 13:01:52 [notice] 14608#4156: exit
+2018/07/06 13:01:52 [notice] 7424#11168: worker process 14608 exited with code 0
+2018/07/06 13:01:52 [notice] 7424#11168: exit
