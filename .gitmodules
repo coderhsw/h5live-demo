@@ -1,0 +1,3 @@
+[submodule "nginx-rtmp-win32"]
+	path = nginx-rtmp-win32
+	url = git@github.com:subway666/h5live-demo.git
