@@ -7,7 +7,7 @@ nginx-rtmp
 # 原理
 
 - 使用 nginx 作为服务器，借助 rtmp 模块提供 rtmp 服务
-- 使用 ffmpeg 拉取 rtmp 流，推送到 nginx
+- 使用 ffmpeg 拉取视频流，推送到 nginx
 - 客户端访问 nginx 来实时收看视频流
 
 # configure arguments
